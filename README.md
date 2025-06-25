@@ -55,7 +55,7 @@ project-root/
 javac main/*.java entity/*.java
 
 # Run
-java main.Main
+java Main.java
 ```
 
 ## 🛠 TODO
