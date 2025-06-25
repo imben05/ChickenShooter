@@ -5,12 +5,12 @@ import java.awt.*;
 
 public class Player {
     public int x, y;
-    private final int WIDTH = 50, HEIGHT = 50;
-    private boolean immune = false;
-    private int immuneTimer = 0;
-    private Image img;
-    private boolean showHealEffect = false;
-    private int healEffectTimer = 0;
+    public final int WIDTH = 50, HEIGHT = 50;
+    public boolean immune = false;
+    public int immuneTimer = 0;
+    public Image img;
+    public boolean showHealEffect = false;
+    public int healEffectTimer = 0;
 
     public Player(int x, int y) {
         this.x = x;

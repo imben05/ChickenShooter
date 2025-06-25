@@ -1,12 +1,13 @@
 package entity;
 
 import java.awt.*;
+import java.io.Serializable;
 import javax.swing.*;
 
-public class DropItem {
+public class DropItem implements Serializable {
     public int x, y;
     private final int SIZE = 40;
-    private Image img;
+    private transient Image img;
 
     public DropItem(int x, int y) {
         this.x = x;

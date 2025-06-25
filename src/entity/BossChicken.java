@@ -1,8 +1,9 @@
 package entity;
 
 import java.awt.*;
+import java.io.Serializable;
 
-public class BossChicken extends Chicken {
+public class BossChicken extends Chicken implements Serializable {
     public BossChicken(int x, int y) {
         super(x, y);
         setHp(20); // máu boss nhiều hơn

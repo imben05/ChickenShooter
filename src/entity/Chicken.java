@@ -1,16 +1,17 @@
 package entity;
 
 import java.awt.*;
+import java.io.Serializable;
 import javax.swing.*;
 
-public class Chicken {
+public class Chicken implements Serializable {
     public int x, y;
-    private final int WIDTH = 80;
-    private final int HEIGHT = 80;
-    private Image img;
-    private int dx = 2, dy = 1;
-    private int hp;
-    private final int maxHp = 3;
+    public final int WIDTH = 80;
+    public final int HEIGHT = 80;
+    private transient Image img;
+    public int dx = 2, dy = 1;
+    public int hp;
+    public final int maxHp = 3;
 
     public Chicken(int x, int y) {
         this.x = x;
