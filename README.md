@@ -21,26 +21,6 @@ This is a Java remake of the classic arcade game Chicken Invaders, built using J
 | Save (paused)       | S                   |
 | Quit to menu        | Q                   |
 
-## 🧱 Structure
-
-```
-project-root/
-├── main/
-│   ├── Main.java
-│   ├── GamePanel.java
-│   └── GameMenuPanel.java
-├── entity/
-│   ├── Player.java
-│   ├── Chicken.java
-│   ├── BossChicken.java
-│   ├── Bullet.java
-│   └── DropItem.java
-├── res/
-│   ├── chicken/
-│   │   └── chicken_santa.png
-│   └── font/
-│       └── Super Adorable.ttf
-```
 
 ## 🚀 How to Run
 
